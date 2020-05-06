@@ -1,9 +1,26 @@
+
 .jumbotron {
-    background-image: url('./assets/books.jpg');
+    background: #fff url('./assets//books.jpg') no-repeat center;
     background-size: cover;
     margin: 0;
 }
 
-:root body {
-    background-color: #dedede;
+.navbar {
+    background-color: #26282b!important;
+    
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 5vh;
+}
+
+.form-group {
+    width: 50vh;
+    margin-left: 20%;
 }
