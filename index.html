@@ -19,19 +19,70 @@
           </nav>
     </header>
     <body>
-    <div class="container1">
-        <form>
-            <div class="form-group">
-            <input type="text" class="form-control" id="name" placeholder="Nome do Usuário">
+        <div class="container1">
+            <form id="userForm">
+                <div class="form-group">
+                    <input type="name" class="form-control" id="user" placeholder="Nome do Usuário">
+                    <button type="submit" class="btn btn-dark" value="Submit">Confirmar</button>
+                </div>
+            </form>
+            
+            <form id="bookForm">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="book" placeholder="Nome do Livro">
+                    <button type="submit" class="btn btn-dark" value="Submit">Confirmar</button>
+                </div>
+            </form>
+            <div class="table-responsive">
+                <table class="table table1">
+                    <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Usuário</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row1"></th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row2"></th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row3"></th>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
-        </form>
+            <div class="table-responsive">
+              <table class="table table2">
+                <thead>
+                  <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Livro</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row1"></th>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row2"></th>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row3"></th>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
     
-        <form>
-            <div class="form-group">
-                <input type="text" class="form-control" id="book" placeholder="Nome do Livro">
-            </div>
-        </form>
-    </div>
+        <script src="index.js"></script>
     </body>
-
 </html>
