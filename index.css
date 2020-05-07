@@ -1,7 +1,9 @@
+
 .jumbotron {
     background: #fff url('./assets//books.jpg') no-repeat center;
     background-size: cover;
     margin: 0;
+    height: 20vh;
 }
 
 .navbar {
@@ -24,17 +26,34 @@
     margin-left: 5vw;
 }
 
-.btn {
+#user {
+    margin-left: 15.5vw;
+}
+
+.userbtn {
+    margin: 1em 0 1em 32.5vw;
+}
+
+.bookbtn {
     margin: 1em 0;
 }
 
 .table1, .table2 {
     width: 40vw;
     margin-left: 5vw;
-    
+    border: groove;    
 }
 
 .table-responsive {
     overflow-y: scroll;
     height: 30vh;
 }
+
+.vl {
+    border-left: 3px solid #26282b;
+    height: 72vh;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 28vh;
+  }
